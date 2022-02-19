@@ -18,11 +18,9 @@
               </Node>
             </Node>
             <Node name="Fodinha.Android" expanded="True">
-              <Node name="Packages" expanded="True" />
               <Node name="Database" expanded="True" />
             </Node>
             <Node name="Fodinha.iOS" expanded="True">
-              <Node name="Packages" expanded="True" />
               <Node name="CustomRenderer" expanded="True" />
               <Node name="Database" expanded="True" />
             </Node>
@@ -32,7 +30,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Fodinha.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A938531A-9C80-420E-A15E-5592EBDF8C69" />
+  <MonoDevelop.Ide.ItemProperties.Fodinha.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F6B7E654-4FAB-4E69-93AE-F5BDFA40CB49" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
