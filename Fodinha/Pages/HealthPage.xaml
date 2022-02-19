@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fodinha.Pages.HealthPage"
+             BackgroundColor="{StaticResource VeryLightPink}"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:components="clr-namespace:Fodinha.Components"
+             ios:Page.UseSafeArea="true">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="ic_fodinha_title.png"/>
+            <StackLayout VerticalOptions="CenterAndExpand"
+                         Margin="60,60,60,0">
+                <Image Source="ic_hearts.png"/>
+                <components:FloatInput FloatPlaceholder="quantidade de vidas"
+                                   EntryKeyboard="Numeric"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

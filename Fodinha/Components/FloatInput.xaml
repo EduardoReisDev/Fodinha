@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fodinha.Components.FloatInput">
+
+    <ContentView.Content>
+        <Grid BackgroundColor="Transparent">
+            <Frame BorderColor="{StaticResource Pink}"
+                   CornerRadius="5"
+                   BackgroundColor="Transparent"
+                   HasShadow="False"/>
+            <Label x:Name="FloatLabel"
+                   AnchorY="1"
+                   AnchorX="0"
+                   Margin="10"
+                   Padding="3"
+                   TextColor="{StaticResource Pink}"
+                   BackgroundColor="{StaticResource VeryLightPink}"
+                   HorizontalOptions="Start"/>
+            <Entry x:Name="FloatEntry"
+                   Margin="10,0,0,0"
+                   TextColor="{StaticResource Pink}"
+                   BackgroundColor="Transparent"/>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

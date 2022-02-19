@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.1" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Pages\" />
+    <None Remove="Database\" />
+    <None Remove="sqlite-net-pcl" />
+    <None Remove="Components\" />
+    <None Remove="ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Pages\" />
+    <Folder Include="Database\" />
+    <Folder Include="Components\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+</Project>
